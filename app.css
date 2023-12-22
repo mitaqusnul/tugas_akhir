@@ -1,0 +1,23 @@
+/* google font link */
+  @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@0;1&family=Oswald:wght@300;600&family=Poppins:ital,wght@1,300;1,600&family=Preahvihear&display=swap');
+
+  /*global styling start */
+/* services section css */
+.servicesText.card {
+    height: 280px;
+    cursor: pointer;
+  }
+.servicesIcon {
+    font-size: 36px;
+    text-align: center;
+    width: 100%;
+}
+.card-title {
+    text-align: center;
+}
+.card:hover .servicesIcon {
+    color: #008000;
+}
+.servicesText:hover {
+    border: 1px solid #008000;
+}
